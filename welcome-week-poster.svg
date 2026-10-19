@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Welcome Week Meetup">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#555555"/><stop offset="1" stop-color="#4169e1"/></linearGradient></defs>
+  <rect width="600" height="400" fill="url(#g)"/>
+  <circle cx="250" cy="110" r="26" fill="#fff"/><circle cx="350" cy="110" r="26" fill="#fff"/><circle cx="300" cy="90" r="26" fill="#f1c40f"/>
+  <text x="300" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="44" font-weight="bold" fill="#ffffff">Welcome Week Meetup</text>
+  <text x="300" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#ffffff">8 October 2026 · Campus Garden</text>
+</svg>

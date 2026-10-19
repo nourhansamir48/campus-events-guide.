@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Details | Campus Events Guide</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <input type="checkbox" id="theme-toggle" class="theme-toggle" />
+    <header>
+      <div class="header-top">
+        <h1>Campus Events Guide</h1>
+        <label for="theme-toggle" class="theme-label">Dark mode</label>
+      </div>
+
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="events.html">Events</a>
+        <a href="event-details.html">Event Details</a>
+        <a href="schedule.html">Schedule</a>
+        <a href="registration.html">Registration</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="innovation">
+        <h2>Campus Innovation Day</h2>
+
+        <img
+          class="poster"
+          src="assets/innovation-day-poster.svg"
+          alt="Poster for Campus Innovation Day with a lightbulb, 12 November 2026"
+        />
+
+        <p>
+          Discover creative student projects in engineering, science, and
+          design. Meet the teams, explore their prototypes, and learn how their
+          ideas became working projects.
+        </p>
+
+        <p><strong>Date:</strong> 12 November 2026</p>
+        <p><strong>Time:</strong> 10:00–15:00</p>
+        <p><strong>Venue:</strong> Main Auditorium</p>
+        <p>
+          <strong>Entry:</strong> Free. Please register and bring your student
+          ID.
+        </p>
+
+        <a class="button" href="registration.html">Register Now</a>
+
+        <h3>Event Media</h3>
+        <figure class="media">
+          <audio controls preload="none">
+            <source src="assets/innovation-day-chime.wav" type="audio/wav" />
+            Your browser does not support the audio element.
+          </audio>
+          <figcaption>
+            Listen to the Campus Innovation Day opening chime.
+          </figcaption>
+        </figure>
+
+        <h3>Event Agenda</h3>
+
+        <ul>
+          <li>10:00 — Welcome and check-in</li>
+          <li>10:30 — Student project talks</li>
+          <li>12:00 — Prototype exhibition</li>
+          <li>13:00 — Break and networking</li>
+          <li>14:00 — Questions and closing session</li>
+          <li>15:00 — Event ends</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Review Campus Innovation Day</h2>
+        <p>
+          This demonstration form checks your entries but does not save reviews
+          or upload files.
+        </p>
+
+        <form action="event-details.html" method="get">
+          <p>
+            <label for="review-name">Your name *</label>
+            <br />
+            <input type="text" id="review-name" required maxlength="60" />
+          </p>
+
+          <p>
+            <label for="review-email">Email address *</label>
+            <br />
+            <input type="email" id="review-email" required maxlength="100" />
+          </p>
+
+          <p>
+            <label for="review-rating">Event rating *</label>
+            <br />
+            <select id="review-rating" required>
+              <option value="">Choose a rating</option>
+              <option value="5">5 — Excellent</option>
+              <option value="4">4 — Good</option>
+              <option value="3">3 — Average</option>
+              <option value="2">2 — Fair</option>
+              <option value="1">1 — Poor</option>
+            </select>
+          </p>
+
+          <p>
+            <label for="review-message">Your review *</label>
+            <br />
+            <textarea
+              id="review-message"
+              rows="5"
+              required
+              maxlength="500"
+            ></textarea>
+          </p>
+
+          <p>
+            <label for="review-photo">Upload an event photo (optional)</label>
+            <br />
+            <input type="file" id="review-photo" accept="image/*" />
+          </p>
+
+          <button type="submit" class="button">Check Review</button>
+        </form>
+      </section>
+
+      <section id="arts">
+        <h2>Student Arts Evening</h2>
+
+        <img
+          class="poster"
+          src="assets/arts-evening-poster.svg"
+          alt="Poster for Student Arts Evening with colourful paint circles, 19 November 2026"
+        />
+        <p>
+          Explore student artwork, enjoy live music, and meet other students
+          interested in creativity.
+        </p>
+        <p><strong>Date:</strong> 19 November 2026</p>
+        <p><strong>Time:</strong> 17:00–20:00</p>
+        <p><strong>Venue:</strong> Student Centre</p>
+        <p><strong>Entry:</strong> Free. No registration required.</p>
+      </section>
+
+      <section id="sports">
+        <h2>Campus Sports Day</h2>
+
+        <img
+          class="poster"
+          src="assets/sports-day-poster.svg"
+          alt="Poster for Campus Sports Day with a ball, 26 November 2026"
+        />
+        <p>
+          Take part in friendly team games and outdoor activities. Students of
+          all experience levels are welcome.
+        </p>
+        <p><strong>Date:</strong> 26 November 2026</p>
+        <p><strong>Time:</strong> 09:00–14:00</p>
+        <p><strong>Venue:</strong> Sports Court</p>
+        <p><strong>Entry:</strong> Free. Wear comfortable sports clothing.</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>Campus Events Guide &copy; 2026</p>
+
+      <div class="social-links">
+        <a href="https://www.facebook.com/">Facebook</a>
+        <a href="https://www.instagram.com/">Instagram</a>
+        <a href="https://www.youtube.com/">YouTube</a>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Student Arts Evening">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#8e44ad"/><stop offset="1" stop-color="#e67e22"/></linearGradient></defs>
+  <rect width="600" height="400" fill="url(#g)"/>
+  <circle cx="230" cy="105" r="34" fill="#fff" opacity=".85"/><circle cx="300" cy="85" r="34" fill="#f1c40f" opacity=".9"/><circle cx="370" cy="105" r="34" fill="#2ecc71" opacity=".85"/>
+  <text x="300" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="44" font-weight="bold" fill="#ffffff">Student Arts Evening</text>
+  <text x="300" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#ffffff">19 November 2026 · Student Centre</text>
+</svg>
